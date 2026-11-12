@@ -12,6 +12,8 @@ Second, you need to imagine the alphabet in it's normal order, then if you choos
 |A|B|C|...|
 |---|---|---|---|
 |Z|A|B|...|
+
+So when rewriting our message we will replace each letter using the order of the other alphabet, like this:
 #### Rigth shift of 1
 |C|A|E|S|A|R|
 |---|---|---|---|---|---|
