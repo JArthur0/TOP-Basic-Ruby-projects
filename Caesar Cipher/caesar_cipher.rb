@@ -25,7 +25,7 @@ end
 
 puts "Write the string you want to encrypt"
 string = gets.chomp
-puts "Between 1-9 put how many the letters will shift"
+puts "How many the letters it will shift"
 shift = gets.chomp.to_i
 
 p caesar_cipher(string,shift)
