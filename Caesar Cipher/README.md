@@ -6,21 +6,37 @@ It's quite simple to undestand, first you need a message to encrypt<br>
 Second, you need to imagine the alphabet in it's normal order, then if you choose to shift the letters to the right by 1 the order of the alphabet will change and the "A" will be replaced with a "B", if you choose to do a shift to the left the "A" will be replaced with a "Z", notice that the alphabet wraps around itself<br>
 #### Rigth shift of 1
 |A|B|C|...|
+<<<<<<< HEAD
 |---||---||---||---|
 |B|C|D|...|
 #### Left shift by 1
 |A|B|C|...|
 |---||---||---||---|
+=======
+|---|
+|B|C|D|...|
+#### Left shift by 1
+|A|B|C|...|
+|---|
+>>>>>>> a4180612b147066d8ad9087adb448f3d1f4395d2
 |Z|A|B|...|
 So when rewriting our message we will replace each letter using the order of the other alphabet, like this:
 #### Rigth shift of 1
 |C|A|E|S|A|R|
+<<<<<<< HEAD
 |---||---||---||---||---||---|
+=======
+|---|
+>>>>>>> a4180612b147066d8ad9087adb448f3d1f4395d2
 |D|B|F|T|B|S|
 
 #### Left shift of 1
 |C|A|E|S|A|R|
+<<<<<<< HEAD
 |---||---||---||---||---||---|
+=======
+|---|
+>>>>>>> a4180612b147066d8ad9087adb448f3d1f4395d2
 |B|Z|D|R|Z|Q|
 
 ## How the program works
